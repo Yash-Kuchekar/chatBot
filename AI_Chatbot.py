@@ -7,10 +7,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_openai import ChatOpenAI
 
-
-
-OpenAI_API_KEY = "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"
-
+OpenAI_API_KEY = "your-API-key"
 st.header("My ChatBot")
 
 with st.sidebar:
